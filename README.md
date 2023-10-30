@@ -30,7 +30,13 @@ git clone ...
 cd GipsiFrontend
 npm install
 ```
-3. Ejecuta la Aplicación:
+3. Configurar variables de entorno
+ * Antes de ejecutar la aplicación, es necesario configurar algunas variables de entorno. Cree un archivo .env en el directorio raíz del proyecto y defina las siguientes variables:
+```bash
+    REACT_APP_GAPSI_API_URL="http://localhost:4000/api/v1"
+```
+
+4. Ejecuta la Aplicación:
 ```bash
 npm start o npm run start
 ```
