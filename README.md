@@ -1,71 +1,39 @@
-# Getting Started with Create React App
+# GapsiProviders
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Este proyecto de React.js implementa la metodología de Atomic Design para crear una interfaz de usuario modular y fácil de mantener. Además, utiliza Material-UI para una experiencia de usuario elegante y receptiva. La finalidad de esta aplicación es proporcionar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para administrar proveedores de manera eficiente y efectiva.
 
-## Available Scripts
+- Funcionalidades
+* Crear Proveedor: Agregar nuevos proveedores con detalles completos.
+* Leer Proveedor: Ver información detallada de cada proveedor almacenado.
+* Actualizar Proveedor: Modificar la información de los proveedores existentes.
+* Eliminar Proveedor: Eliminar proveedores de la base de datos de manera segura.
 
-In the project directory, you can run:
+## Estructura del Proyecto
+El proyecto sigue la estructura de Atomic Design para organizar los componentes de la interfaz de usuario en átomos, moléculas, organismos, plantillas y páginas. Además, utiliza Material-UI para diseñar y estilizar los componentes de manera coherente y atractiva.
 
-### `npm start`
+* Átomos: Componentes básicos y simples como botones, campos de entrada, etc.
+* Moléculas: Combinaciones de átomos que forman componentes más complejos, como formularios.
+* Organismos: Conjuntos de moléculas y átomos que crean secciones reutilizables, como listas de proveedores.
+* Plantillas: Diseños de página que colocan los organismos en una estructura específica.
+* Páginas: Páginas completas de la aplicación que utilizan las plantillas para mostrar contenido específico.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requisitos
+Asegúrate de tener Node.js y npm instalados en tu sistema. Si no los tienes instalados, puedes descargarlos desde nodejs.org.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Instalación y Ejecución
+```bash
+git clone ...
+```
+2. Instala las Dependencias
+```bash
+cd GipsiFrontend
+npm install
+```
+3. Ejecuta la Aplicación:
+```bash
+npm start o npm run start
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GapsiFrontEnd
